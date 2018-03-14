@@ -1,0 +1,1850 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Angular Bootstrap Date/Time Picker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Angular Bootstrap Date/Time Picker</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">Angular Bootstrap Date/Time Picker</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-fw fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                                <li class="link">
+                                    <a href="../dependencies.html"
+                                        
+                                        >
+                                        <span class="fa fa-fw fa-list"></span>Dependencies
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-fw fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/DlDateTimePickerDateModule.html" >DlDateTimePickerDateModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/DlDateTimePickerMomentModule.html" >DlDateTimePickerMomentModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/DlDateTimePickerNumberModule.html" >DlDateTimePickerNumberModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-fw fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/DlDateTimePickerComponent.html"  data-type="entity-link" class="active" >DlDateTimePickerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-fw fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapter.html" >DlDateAdapter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapterMoment.html" >DlDateAdapterMoment</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapterNative.html" >DlDateAdapterNative</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapterNumber.html" >DlDateAdapterNumber</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateTimePickerChange.html" >DlDateTimePickerChange</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDayModelProvider.html" >DlDayModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlHourModelProvider.html" >DlHourModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlMinuteModelProvider.html" >DlMinuteModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlMonthModelProvider.html" >DlMonthModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlYearModelProvider.html" >DlYearModelProvider</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-fw fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/DateButton.html" >DateButton</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/DlDateTimePickerModel.html" >DlDateTimePickerModel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/DlModelProvider.html" >DlModelProvider</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="../images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">Angular Bootstrap Date/Time Picker</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-fw fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../dependencies.html"
+                                               
+                                               >
+                                               <span class="fa fa-fw fa-list"></span>Dependencies
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-fw fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/DlDateTimePickerDateModule.html" >DlDateTimePickerDateModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/DlDateTimePickerMomentModule.html" >DlDateTimePickerMomentModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/DlDateTimePickerNumberModule.html" >DlDateTimePickerNumberModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-fw fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/DlDateTimePickerComponent.html"  data-type="entity-link" class="active" >DlDateTimePickerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-fw fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapter.html" >DlDateAdapter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapterMoment.html" >DlDateAdapterMoment</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapterNative.html" >DlDateAdapterNative</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapterNumber.html" >DlDateAdapterNumber</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateTimePickerChange.html" >DlDateTimePickerChange</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDayModelProvider.html" >DlDayModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlHourModelProvider.html" >DlHourModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlMinuteModelProvider.html" >DlMinuteModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlMonthModelProvider.html" >DlMonthModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlYearModelProvider.html" >DlYearModelProvider</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-fw fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/DateButton.html" >DateButton</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/DlDateTimePickerModel.html" >DlDateTimePickerModel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/DlModelProvider.html" >DlModelProvider</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="../images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>DlDateTimePickerComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/lib/dl-date-time-picker/dl-date-time-picker.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Component that provides all of the user facing functionality of the date/time picker.</p>
+<p>This component supports the following keyboard shortcuts in all views:</p>
+<table class="table table-bordered compodoc-table">
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>LEFT_ARROW</code></td>
+<td>Go to the cell to the left</td>
+</tr>
+<tr>
+<td><code>RIGHT_ARROW</code></td>
+<td>Go to the cell to the right</td>
+</tr>
+<tr>
+<td><code>UP_ARROW</code></td>
+<td>Go to the cell above</td>
+</tr>
+<tr>
+<td><code>DOWN_ARROW</code></td>
+<td>Go to the cell below</td>
+</tr>
+<tr>
+<td><code>HOME</code></td>
+<td>Go to the first cell in the view</td>
+</tr>
+<tr>
+<td><code>END</code></td>
+<td>Go to the last cell in the view</td>
+</tr>
+<tr>
+<td><code>PAGE_UP</code></td>
+<td>Go to the same cell in the previous time period</td>
+</tr>
+<tr>
+<td><code>PAGE_DOWN</code></td>
+<td>Go to the same cell in the next time period</td>
+</tr>
+<tr>
+<td><code>ENTER</code> or <code>SPACE</code></td>
+<td>Select current cell</td>
+</tr>
+</tbody>
+</table>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/forms/ControlValueAccessor" target="_blank" >ControlValueAccessor</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+            <tr>
+                <td class="col-md-3">changeDetection</td>
+                <td class="col-md-9"><code>ChangeDetectionStrategy.OnPush</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">providers</td>
+                <td class="col-md-9">
+                    <code>
+                        {
+    : , : , : true
+}
+                    </code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>dl-date-time-picker</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>dl-date-time-picker.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./dl-date-time-picker.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="index">Index</h3>
+        <table class="table table-sm table-bordered index-table">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#leftIconClass">leftIconClass</a>
+                            </li>
+                            <li>
+                                <a href="#maxView">maxView</a>
+                            </li>
+                            <li>
+                                <a href="#minuteStep">minuteStep</a>
+                            </li>
+                            <li>
+                                <a href="#minView">minView</a>
+                            </li>
+                            <li>
+                                <a href="#rightIconClass">rightIconClass</a>
+                            </li>
+                            <li>
+                                <a href="#selectFilter">selectFilter</a>
+                            </li>
+                            <li>
+                                <a href="#startDate">startDate</a>
+                            </li>
+                            <li>
+                                <a href="#startView">startView</a>
+                            </li>
+                            <li>
+                                <a href="#upIconClass">upIconClass</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#change">change</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Accessors</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#value">value</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+    <code>constructor(_elementRef: <a href="https://angular.io/api/core/ElementRef" target="_blank">ElementRef</a>, _ngZone: <a href="https://angular.io/api/core/NgZone" target="_blank">NgZone</a>, _dateAdapter: <a href="../classes/DlDateAdapter.html">DlDateAdapter<D></a>, yearModelComponent: <a href="../classes/DlYearModelProvider.html">DlYearModelProvider</a>, monthModelComponent: <a href="../classes/DlMonthModelProvider.html">DlMonthModelProvider</a>, dayModelComponent: <a href="../classes/DlDayModelProvider.html">DlDayModelProvider</a>, hourModelComponent: <a href="../classes/DlHourModelProvider.html">DlHourModelProvider</a>, minuteModelComponent: <a href="../classes/DlMinuteModelProvider.html">DlMinuteModelProvider</a>)</code>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="271" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:271</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Used to construct a new instance of a date/time picker.</p>
+    </div>
+                                <div>
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                        <td>Type</td>
+                                                    <td>Optional</td>
+                                                        <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                        <td>_elementRef</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>reference to this element.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>_ngZone</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="https://angular.io/api/core/NgZone" target="_blank" >NgZone</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>reference to an NgZone instance used to select the active element outside of angular.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>_dateAdapter</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="../classes/DlDateAdapter.html" target="_self" >DlDateAdapter&lt;D&gt;</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>date adapter for the date type in the model.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>yearModelComponent</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="../classes/DlYearModelProvider.html" target="_self" >DlYearModelProvider</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>provider for the year view model.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>monthModelComponent</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="../classes/DlMonthModelProvider.html" target="_self" >DlMonthModelProvider</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>provider for the month view model.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>dayModelComponent</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="../classes/DlDayModelProvider.html" target="_self" >DlDayModelProvider</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>provider for the day view model.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>hourModelComponent</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="../classes/DlHourModelProvider.html" target="_self" >DlHourModelProvider</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>provider for the hour view model.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>minuteModelComponent</td>
+                                                      
+                                                            <td>
+                                                                        <code><a href="../classes/DlMinuteModelProvider.html" target="_self" >DlMinuteModelProvider</a></code>
+                                                            </td>
+                                                      
+                                                        <td>
+                                                                no
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <code><p>provider for the minute view model.</p>
+    </code>
+                                                            </td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="leftIconClass"></a>
+                            <code>leftIconClass</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Specifies the classes used to display the left icon.</p>
+<p>This component uses OPENICONIC <a href="https://useiconic.com/open">https://useiconic.com/open</a>
+by default but any icon library may be used.</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code>string | [] | Set | literal type</code>
+
+                              </p>
+                            <p>
+                              <em>Default value: </em><code>[
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-left&#x27;
+  ]</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="129" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:129</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="maxView"></a>
+                            <code>maxView</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>The highest view that the date/time picker can show.
+Setting this to a view less than year could make it more
+difficult for the end-user to navigate to certain dates.</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code>&quot;year&quot; | &quot;month&quot; | &quot;day&quot; | &quot;hour&quot; | &quot;minute&quot;</code>
+
+                              </p>
+                            <p>
+                              <em>Default value: </em><code>&#x27;year&#x27;</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="140" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:140</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="minuteStep"></a>
+                            <code>minuteStep</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>The number of minutes between each <code>.dl-abdtp-minute</code> button.</p>
+<p>Must be greater than <code>0</code> and less than <code>60</code>.</p>
+</div>
+                            <p>
+                              <em>Default value: </em><code>5</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="148" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:148</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="minView"></a>
+                            <code>minView</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>The view that will be used for date/time selection.</p>
+<p>The default of `minute  means that selection will not happen
+until the end-user clicks on a cell in the minute view.</p>
+<p>for example, if you want the end-user to select a only day (date),
+setting <code>minView</code> to <code>day</code> will cause selection to happen when the
+end-user selects a cell in the day view.</p>
+<p>NOTE: This must be set lower than or equal to `startView&#39;</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code>&quot;year&quot; | &quot;month&quot; | &quot;day&quot; | &quot;hour&quot; | &quot;minute&quot;</code>
+
+                              </p>
+                            <p>
+                              <em>Default value: </em><code>&#x27;minute&#x27;</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="163" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:163</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="rightIconClass"></a>
+                            <code>rightIconClass</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Specifies the classes used to display the right icon.</p>
+<p>This component uses OPENICONIC <a href="https://useiconic.com/open">https://useiconic.com/open</a>
+by default but any icon library may be used.</p>
+</div>
+                            <p>
+                              <em>Default value: </em><code>[
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-right&#x27;
+  ]</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="172" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:172</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="selectFilter"></a>
+                            <code>selectFilter</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Determine whether or not the <code>DateButton</code> is selectable by the end user.</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+
+                              </p>
+                            <p>
+                              <em>Default value: </em><code>() &#x3D;&gt; true</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="529" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:529</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="startDate"></a>
+                            <code>startDate</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Start at the view containing startDate when no value is selected.</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                              </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="181" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:181</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="startView"></a>
+                            <code>startView</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>The initial view that the date/time picker will show.
+The picker will also return to this view after a date/time
+is selected.</p>
+<p>NOTE: This must be set lower than or equal to `maxView&#39;</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code>&quot;year&quot; | &quot;month&quot; | &quot;day&quot; | &quot;hour&quot; | &quot;minute&quot;</code>
+
+                              </p>
+                            <p>
+                              <em>Default value: </em><code>&#x27;day&#x27;</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="191" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:191</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="upIconClass"></a>
+                            <code>upIconClass</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Specifies the classes used to display the up icon.</p>
+<p>This component uses OPENICONIC <a href="https://useiconic.com/open">https://useiconic.com/open</a>
+by default but any icon library may be used.</p>
+</div>
+                            <p>
+                              <em>Default value: </em><code>[
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-top&#x27;
+  ]</code>
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="200" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:200</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="outputs">Outputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="change"></a>
+                            <code>change</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Emits when a <code>change</code> event when date/time is selected or
+the value of the date/time picker changes.</p>
+</div>
+                            <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="210" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:210</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+
+
+
+    <section>
+        <h3 id="accessors">
+            Accessors
+        </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="value"></a>
+                            <span class="name"><b>value</b><a href="#value"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>value()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="534" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:534</a></div>
+                                    </td>
+                                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-description"><p>Returns <code>D</code> value of the date/time picker or undefined/null if no value is set.</p>
+    </div>
+    
+                                    <div class="io-description">
+                                        <b>Returns : </b>    <code>D</code>
+    
+                                    </div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>value(value: )</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="542" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:542</a></div>
+                                    </td>
+                                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-description"><p>Sets value of the date/time picker and emits a change event if the
+    new value is different from the previous value.</p>
+    </div>
+    
+                                    <div class="io-description">
+                                            <b>Parameters :</b>
+                                            <table class="params">
+                                                <thead>
+                                                    <tr>
+                                                        <td>Name</td>
+                                                        <td>Optional</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr>
+                                                            <td>value</td>
+                                                        
+                                                        
+                                                            <td>
+                                                                    no
+                                                            </td>
+                                                            
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                                    <div>
+                                    </div>
+                                    <div class="io-description">
+                                        <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                    </div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import {
+  ChangeDetectionStrategy,
+  Component,
+  ElementRef,
+  EventEmitter,
+  Input,
+  NgZone,
+  OnChanges,
+  OnInit,
+  Output,
+  SimpleChanges
+} from &#x27;@angular/core&#x27;;
+
+import {ControlValueAccessor, NG_VALUE_ACCESSOR} from &#x27;@angular/forms&#x27;;
+import {take} from &#x27;rxjs/operators&#x27;;
+import {DateButton, DlDateTimePickerModel} from &#x27;./dl-date-time-picker-model&#x27;;
+import {DlModelProvider} from &#x27;./dl-model-provider&#x27;;
+import {DlDateTimePickerChange} from &#x27;./dl-date-time-picker-change&#x27;;
+import * as _moment from &#x27;moment&#x27;;
+import {DlDateAdapter} from &#x27;./dl-date-adapter&#x27;;
+import {DlYearModelProvider} from &#x27;./dl-model-provider-year&#x27;;
+import {DlMonthModelProvider} from &#x27;./dl-model-provider-month&#x27;;
+import {DlDayModelProvider} from &#x27;./dl-model-provider-day&#x27;;
+import {DlHourModelProvider} from &#x27;./dl-model-provider-hour&#x27;;
+import {DlMinuteModelProvider} from &#x27;./dl-model-provider-minute&#x27;;
+
+/**
+ * Work around for moment namespace conflict when used with webpack and rollup.
+ * See https://github.com/dherges/ng-packagr/issues/163
+ *
+ * Depending on whether rollup is used, moment needs to be imported differently.
+ * Since Moment.js doesn&#x27;t have a default export, we normally need to import using
+ * the &#x60;* as&#x60;syntax.
+ *
+ * rollup creates a synthetic default module and we thus need to import it using
+ * the &#x60;default as&#x60; syntax.
+ *
+ * @internal
+ **/
+const moment &#x3D; _moment;
+
+
+/**
+ * Maps key codes to the model provider function name
+ * that should be called to perform the action.
+ *
+ * @internal
+ **/
+
+const keyCodeToModelProviderMethod &#x3D; {
+  33: &#x27;pageUp&#x27;,
+  34: &#x27;pageDown&#x27;,
+  35: &#x27;goEnd&#x27;,
+  36: &#x27;goHome&#x27;,
+  37: &#x27;goLeft&#x27;,
+  38: &#x27;goUp&#x27;,
+  39: &#x27;goRight&#x27;,
+  40: &#x27;goDown&#x27;,
+};
+
+
+/**
+ * List of view names for the calendar.
+ *
+ * This list must be in order from
+ * smallest increment of time to largest increment of time.
+ *
+ * @internal
+ **/
+const VIEWS &#x3D; [
+  &#x27;minute&#x27;,
+  &#x27;hour&#x27;,
+  &#x27;day&#x27;,
+  &#x27;month&#x27;,
+  &#x27;year&#x27;
+];
+
+/**
+ * Component that provides all of the user facing functionality of the date/time picker.
+ *
+ * This component supports the following keyboard shortcuts in all views:
+ *
+ * | Shortcut             | Action                                          |
+ * |----------------------|-------------------------------------------------|
+ * | &#x60;LEFT_ARROW&#x60;         | Go to the cell to the left                      |
+ * | &#x60;RIGHT_ARROW&#x60;        | Go to the cell to the right                     |
+ * | &#x60;UP_ARROW&#x60;           | Go to the cell above                            |
+ * | &#x60;DOWN_ARROW&#x60;         | Go to the cell below                            |
+ * | &#x60;HOME&#x60;               | Go to the first cell in the view                |
+ * | &#x60;END&#x60;                | Go to the last cell in the view                 |
+ * | &#x60;PAGE_UP&#x60;            | Go to the same cell in the previous time period |
+ * | &#x60;PAGE_DOWN&#x60;          | Go to the same cell in the next time period     |
+ * | &#x60;ENTER&#x60; or &#x60;SPACE&#x60;   | Select current cell                             |
+ *
+ */
+
+@Component({
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  preserveWhitespaces: false,
+  providers: [
+    {
+      provide: NG_VALUE_ACCESSOR,
+      useExisting: DlDateTimePickerComponent,
+      multi: true
+    }
+  ],
+  selector: &#x27;dl-date-time-picker&#x27;,
+  styleUrls: [&#x27;./dl-date-time-picker.component.scss&#x27;],
+  templateUrl: &#x27;./dl-date-time-picker.component.html&#x27;,
+})
+export class DlDateTimePickerComponent&lt;D&gt; implements OnChanges, OnInit, ControlValueAccessor {
+
+  /**
+   * Specifies the classes used to display the left icon.
+   *
+   * This component uses OPENICONIC https://useiconic.com/open
+   * by default but any icon library may be used.
+   */
+  @Input()
+  leftIconClass: string | string[] | Set&lt;string&gt; | {} &#x3D; [
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-left&#x27;
+  ];
+
+  /**
+   * The highest view that the date/time picker can show.
+   * Setting this to a view less than year could make it more
+   * difficult for the end-user to navigate to certain dates.
+   */
+  @Input()
+  maxView: &#x27;year&#x27; | &#x27;month&#x27; | &#x27;day&#x27; | &#x27;hour&#x27; | &#x27;minute&#x27; &#x3D; &#x27;year&#x27;;
+
+  /**
+   * The number of minutes between each &#x60;.dl-abdtp-minute&#x60; button.
+   *
+   * Must be greater than &#x60;0&#x60; and less than &#x60;60&#x60;.
+   */
+  @Input()
+  minuteStep &#x3D; 5;
+
+  /**
+   * The view that will be used for date/time selection.
+   *
+   * The default of &#x60;minute  means that selection will not happen
+   * until the end-user clicks on a cell in the minute view.
+   *
+   * for example, if you want the end-user to select a only day (date),
+   * setting &#x60;minView&#x60; to &#x60;day&#x60; will cause selection to happen when the
+   * end-user selects a cell in the day view.
+   *
+   * NOTE: This must be set lower than or equal to &#x60;startView&#x27;
+   */
+  @Input()
+  minView: &#x27;year&#x27; | &#x27;month&#x27; | &#x27;day&#x27; | &#x27;hour&#x27; | &#x27;minute&#x27; &#x3D; &#x27;minute&#x27;;
+
+  /**
+   * Specifies the classes used to display the right icon.
+   *
+   * This component uses OPENICONIC https://useiconic.com/open
+   * by default but any icon library may be used.
+   */
+  @Input()
+  rightIconClass &#x3D; [
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-right&#x27;
+  ];
+
+  /**
+   *  Start at the view containing startDate when no value is selected.
+   */
+  @Input()
+  startDate: number;
+
+  /**
+   * The initial view that the date/time picker will show.
+   * The picker will also return to this view after a date/time
+   * is selected.
+   *
+   * NOTE: This must be set lower than or equal to &#x60;maxView&#x27;
+   */
+  @Input()
+  startView: &#x27;year&#x27; | &#x27;month&#x27; | &#x27;day&#x27; | &#x27;hour&#x27; | &#x27;minute&#x27; &#x3D; &#x27;day&#x27;;
+
+  /**
+   * Specifies the classes used to display the up icon.
+   *
+   * This component uses OPENICONIC https://useiconic.com/open
+   * by default but any icon library may be used.
+   */
+  @Input()
+  upIconClass &#x3D; [
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-top&#x27;
+  ];
+
+  /**
+   * Emits when a &#x60;change&#x60; event when date/time is selected or
+   * the value of the date/time picker changes.
+   **/
+  @Output()
+  readonly change &#x3D; new EventEmitter&lt;DlDateTimePickerChange&lt;D&gt;&gt;();
+
+  /**
+   * Change listener callback functions registered
+   * via &#x60;registerOnChange&#x60;
+   * @internal
+   **/
+  private _changed: ((value: D) &#x3D;&gt; void)[] &#x3D; [];
+
+  /**
+   * Model for the current view.
+   *
+   * @internal
+   **/
+  _model: DlDateTimePickerModel;
+
+  /**
+   * Maps view name to the next view (the view for the next smallest increment of time).
+   * @internal
+   **/
+  private _nextView &#x3D; {
+    &#x27;year&#x27;: &#x27;month&#x27;,
+    &#x27;month&#x27;: &#x27;day&#x27;,
+    &#x27;day&#x27;: &#x27;hour&#x27;,
+    &#x27;hour&#x27;: &#x27;minute&#x27;
+  };
+
+  /**
+   * Maps view name to the previous view (the view for the next largest increment of time).
+   * @internal
+   **/
+  private _previousView &#x3D; {
+    &#x27;minute&#x27;: &#x27;hour&#x27;,
+    &#x27;hour&#x27;: &#x27;day&#x27;,
+    &#x27;day&#x27;: &#x27;month&#x27;,
+    &#x27;month&#x27;: &#x27;year&#x27;
+  };
+
+  /**
+   * Touch listener callback functions registered
+   * via &#x60;registerOnChange&#x60;
+   * @internal
+   **/
+  private _touched: (() &#x3D;&gt; void)[] &#x3D; [];
+
+  /**
+   * Stores the selected value for this picker.
+   * @internal
+   **/
+  private _value: D;
+
+  /**
+   * Maps view name to the model provider for that view.
+   * @internal
+   **/
+  private _viewToModelProvider: {
+    year: DlModelProvider;
+    month: DlModelProvider;
+    day: DlModelProvider;
+    hour: DlModelProvider;
+    minute: DlModelProvider;
+  };
+
+  /**
+   * Used to construct a new instance of a date/time picker.
+   *
+   * @param _elementRef
+   *  reference to this element.
+   * @param _ngZone
+   *  reference to an NgZone instance used to select the active element outside of angular.
+   * @param _dateAdapter
+   *  date adapter for the date type in the model.
+   * @param yearModelComponent
+   *  provider for the year view model.
+   * @param monthModelComponent
+   *  provider for the month view model.
+   * @param dayModelComponent
+   *  provider for the day view model.
+   * @param hourModelComponent
+   *  provider for the hour view model.
+   * @param minuteModelComponent
+   *  provider for the minute view model.
+   */
+  constructor(private _elementRef: ElementRef,
+              private _ngZone: NgZone,
+              private _dateAdapter: DlDateAdapter&lt;D&gt;,
+              private yearModelComponent: DlYearModelProvider,
+              private monthModelComponent: DlMonthModelProvider,
+              private dayModelComponent: DlDayModelProvider,
+              private hourModelComponent: DlHourModelProvider,
+              private minuteModelComponent: DlMinuteModelProvider) {
+
+    this._viewToModelProvider &#x3D; {
+      year: yearModelComponent,
+      month: monthModelComponent,
+      day: dayModelComponent,
+      hour: hourModelComponent,
+      minute: minuteModelComponent,
+    };
+  }
+
+  /**
+   * Receives configuration changes detected by Angular and passes the changes on
+   * to the model providers so the provider is aware of any necessary configuration
+   * changes (i.e. minuteStep)
+   *
+   * @param changes
+   *  the input changes detected by Angular.
+   */
+  ngOnChanges(changes: SimpleChanges): void {
+    Object.keys(this._viewToModelProvider)
+      .map((key) &#x3D;&gt; this._viewToModelProvider[key])
+      .forEach((provider: DlModelProvider) &#x3D;&gt; provider.onChanges(changes));
+
+    if (this._model) { // only update the model after ngOnInit has set it the first time.
+      this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this._model.activeDate, this.valueOf);
+    }
+  }
+
+  /**
+   * Sets the initial model.
+   *
+   * @internal
+   **/
+  ngOnInit(): void {
+    this.model &#x3D; this._viewToModelProvider[this.getStartView()].getModel(this.getStartDate(), this.valueOf);
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the date elements.
+   *
+   * If the current view is the minimum view then the date value is selected
+   * and the picker returns to the start view.
+   *
+   * Otherwise the picker displays the next view with the next
+   * smallest time increment.
+   *
+   * @internal
+   **/
+  _onDateClick(dateButton: DateButton) {
+    if (dateButton.classes[&#x27;dl-abdtp-disabled&#x27;]) {
+      return;
+    }
+
+    let nextView &#x3D; this._nextView[this._model.viewName];
+
+    if ((this.minView || &#x27;minute&#x27;) &#x3D;&#x3D;&#x3D; this._model.viewName) {
+      this.value &#x3D; this._dateAdapter.fromMilliseconds(dateButton.value);
+      nextView &#x3D; this.startView;
+    }
+
+    this.model &#x3D; this._viewToModelProvider[nextView].getModel(dateButton.value, this.valueOf);
+
+    this.onTouch();
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the left button.
+   *
+   * Changes the displayed time range of the picker to the previous time range.
+   * For example, in year view, the previous decade is displayed.
+   *
+   * @internal
+   **/
+  _onLeftClick() {
+    this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this._model.leftButton.value, this.valueOf);
+    this.onTouch();
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the up button.
+   *
+   * Changes the view of the picker to the next largest time increment.
+   * For example, in day view, the next view displayed will be month view.
+   *
+   * @internal
+   **/
+  _onUpClick() {
+    this.model &#x3D; this._viewToModelProvider[this._previousView[this._model.viewName]].getModel(this._model.upButton.value, this.valueOf);
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the right button.
+   *
+   * Changes the displayed time range of the picker to the next time range.
+   * For example, in year view, the next decade is displayed.
+   *
+   * @internal
+   **/
+  _onRightClick() {
+    this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this._model.rightButton.value, this.valueOf);
+    this.onTouch();
+  }
+
+  /**
+   * Handles various key down events to move the &#x60;active date&#x60; around the calendar.
+   *
+   * @internal
+   **/
+  _handleKeyDown($event: KeyboardEvent): void {
+    const functionName &#x3D; keyCodeToModelProviderMethod[$event.keyCode];
+
+    if (functionName) {
+      const modelProvider &#x3D; this._viewToModelProvider[this._model.viewName];
+      this.model &#x3D; modelProvider[functionName](this._model.activeDate, this.valueOf);
+
+      this.focusActiveCell();
+      // Prevent unexpected default actions such as form submission.
+      event.preventDefault();
+    }
+  }
+
+
+  /**
+   * Applies the &#x60;selectionFilter&#x60; by adding the &#x60;dl-abdtp-disabled&#x60;
+   * class to any &#x60;DateButton&#x60; where &#x60;selectFilter&#x60; returned false.
+   *
+   * @param model
+   *  the new model
+   *
+   * @returns
+   *  the supplied model with zero or more &#x60;DateButton&#x60;&#x27;s
+   *  having the &#x60;dl-abdtp-disabled&#x60; class set to &#x60;true&#x60; if the
+   *  selection for that date should be disabled.
+   *
+   * @internal
+   */
+  private applySelectFilter(model: DlDateTimePickerModel): DlDateTimePickerModel {
+    if (this.selectFilter) {
+      model.rows &#x3D; model.rows.map((row) &#x3D;&gt; {
+        row.cells.map((dateButton: DateButton) &#x3D;&gt; {
+          const disabled &#x3D; !this.selectFilter(dateButton, model.viewName);
+          dateButton.classes[&#x27;dl-abdtp-disabled&#x27;] &#x3D; disabled;
+          if (disabled) {
+            dateButton.classes[&#x27;aria-disabled&#x27;] &#x3D; true;
+          }
+          return dateButton;
+        });
+        return row;
+      });
+    }
+
+    return model;
+  }
+
+  /**
+   * Focuses the &#x60;.dl-abdtp-active&#x60; cell after the microtask queue is empty.
+   * @internal
+   **/
+  private focusActiveCell() {
+    this._ngZone.runOutsideAngular(() &#x3D;&gt; {
+      this._ngZone.onStable.asObservable().pipe(take(1)).subscribe(() &#x3D;&gt; {
+        this._elementRef.nativeElement.querySelector(&#x27;.dl-abdtp-active&#x27;).focus();
+      });
+    });
+  }
+
+  /**
+   * Determines the start date for the picker.
+   * @internal
+   **/
+  private getStartDate() {
+    if (hasValue(this._value)) {
+      return this._value;
+    }
+    if (hasValue(this.startDate)) {
+      return this.startDate;
+    }
+    return moment().valueOf();
+  }
+
+  /**
+   * Determine the start view for the picker
+   * @returns
+   *  the largest time increment view between the &#x60;minView&#x60; or &#x60;minute&#x60; view and the &#x60;startView&#x60; or &#x60;day&#x60; view.
+   */
+  private getStartView(): string {
+    const startIndex &#x3D; Math.max(VIEWS.indexOf(this.minView || &#x27;minute&#x27;), VIEWS.indexOf(this.startView || &#x27;day&#x27;));
+    return VIEWS[startIndex];
+  }
+
+
+  /**
+   * Set&#x27;s the model for the current view after applying the selection filter.
+   *
+   * @internal
+   **/
+  private set model(model: DlDateTimePickerModel) {
+    this._model &#x3D; this.applySelectFilter(model);
+  }
+
+  /**
+   * Calls all registered &#x60;touch&#x60; callback functions.
+   * @internal
+   **/
+  private onTouch() {
+    this._touched.forEach((onTouch) &#x3D;&gt; onTouch());
+  }
+
+  /**
+   * Implements ControlValueAccessor.registerOnChange to register change listeners.
+   * @internal
+   **/
+  registerOnChange(fn: (value: D) &#x3D;&gt; void) {
+    this._changed.push(fn);
+  }
+
+  /**
+   * Implements ControlValueAccessor.registerOnTouched to register touch listeners.
+   * @internal
+   **/
+  registerOnTouched(fn: () &#x3D;&gt; void) {
+    this._touched.push(fn);
+  }
+
+  /**
+   *  Determine whether or not the &#x60;DateButton&#x60; is selectable by the end user.
+   */
+  @Input()
+  selectFilter: (dateButton: DateButton, viewName: string) &#x3D;&gt; boolean &#x3D; () &#x3D;&gt; true
+
+  /**
+   * Returns &#x60;D&#x60; value of the date/time picker or undefined/null if no value is set.
+   **/
+  get value(): D {
+    return this._value;
+  }
+
+  /**
+   * Sets value of the date/time picker and emits a change event if the
+   * new value is different from the previous value.
+   **/
+  set value(value: D) {
+    if (this._value !&#x3D;&#x3D; value) {
+      this._value &#x3D; value;
+      this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this.getStartDate(), this.valueOf);
+      this._changed.forEach(f &#x3D;&gt; f(value));
+      this.change.emit(new DlDateTimePickerChange&lt;D&gt;(value));
+    }
+  }
+
+  /**
+   * Returns &#x60;milliseconds&#x60; value of the date/time picker or undefined/null if no value is set.
+   **/
+  get valueOf(): number | null {
+    return this._dateAdapter.toMilliseconds(this._value);
+  }
+
+
+  /**
+   * Implements ControlValueAccessor.writeValue to store the value from the model.
+   * @internal
+   **/
+  writeValue(value: D) {
+    this.value &#x3D; value;
+  }
+
+}
+
+/** @internal */
+function hasValue(value: any): boolean {
+  return (typeof value !&#x3D;&#x3D; &#x27;undefined&#x27;) &amp;&amp; (value !&#x3D;&#x3D; null);
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;text-center dl-abdtp-{{_model.viewName}}-view &quot;&gt;
+  &lt;div class&#x3D;&quot;row align-items-center no-gutters&quot;&gt;
+    &lt;button class&#x3D;&quot;col dl-abdtp-left-button align-items-center&quot;
+            type&#x3D;&quot;button&quot;
+            [attr.aria-label]&#x3D;&quot;_model.leftButton.ariaLabel&quot;
+            [attr.title]&#x3D;&quot;_model.leftButton.ariaLabel&quot;
+            [ngClass]&#x3D;&quot;_model.leftButton.classes&quot;
+            (click)&#x3D;&quot;_onLeftClick()&quot;&gt;
+      &lt;span class&#x3D;&quot;left-icon&quot; [ngClass]&#x3D;&quot;leftIconClass&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+
+    &lt;div *ngIf&#x3D;&quot;_model.viewName &#x3D;&#x3D;&#x3D; (this.maxView || &#x27;year&#x27;); then maxViewLabel else defaultViewLabel;&quot;&gt;&lt;/div&gt;
+
+    &lt;button class&#x3D;&quot;col dl-abdtp-right-button&quot;
+            type&#x3D;&quot;button&quot;
+            [attr.aria-label]&#x3D;&quot;_model.rightButton.ariaLabel&quot;
+            [attr.title]&#x3D;&quot;_model.rightButton.ariaLabel&quot;
+            (click)&#x3D;&quot;_onRightClick()&quot;
+            [ngClass]&#x3D;&quot;_model.rightButton.classes&quot;&gt;
+      &lt;span class&#x3D;&quot;right-icon&quot; [ngClass]&#x3D;&quot;rightIconClass&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div (keydown)&#x3D;&quot;_handleKeyDown($event)&quot;&gt;
+    &lt;div *ngIf&#x3D;&quot;_model.rowLabels?.length&quot; class&#x3D;&quot;row no-gutters&quot;&gt;
+      &lt;div *ngFor&#x3D;&quot;let label of _model.rowLabels&quot; class&#x3D;&quot;col align-items-center no-gutters dl-abdtp-col-label&quot;&gt;{{label}}&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div *ngFor&#x3D;&quot;let row of _model.rows&quot; class&#x3D;&quot;row align-items-center no-gutters&quot;&gt;
+      &lt;div *ngFor&#x3D;&quot;let cell of row.cells&quot;
+           role&#x3D;&quot;gridcell&quot;
+           class&#x3D;&quot;col dl-abdtp-date-button dl-abdtp-{{_model.viewName}} {{cell.value}}&quot;
+           [ngClass]&#x3D;&quot;cell.classes&quot;
+           [attr.aria-label]&#x3D;&quot;cell.ariaLabel&quot;
+           [attr.aria-disabled]&#x3D;&quot;cell.classes[&#x27;dl-abdtp-disabled&#x27;]&quot;
+           [attr.tabindex]&#x3D;&quot;cell.classes[&#x27;dl-abdtp-active&#x27;] ? 0 : -1&quot;
+           (click)&#x3D;&quot;_onDateClick(cell)&quot;
+           (keydown.space)&#x3D;&quot;_onDateClick(cell)&quot;
+           (keydown.enter)&#x3D;&quot;_onDateClick(cell)&quot;
+      &gt;{{cell.display}}&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ng-template #maxViewLabel&gt;
+  &lt;div class&#x3D;&quot;col-10 dl-abdtp-view-label&quot;&gt;{{_model.viewLabel}}&lt;/div&gt;
+&lt;/ng-template&gt;
+&lt;ng-template #defaultViewLabel&gt;
+  &lt;button class&#x3D;&quot;col-10 dl-abdtp-view-label dl-abdtp-up-button&quot;
+          type&#x3D;&quot;button&quot;
+          [attr.aria-label]&#x3D;&quot;_model.upButton.ariaLabel&quot;
+          [attr.title]&#x3D;&quot;_model.upButton.ariaLabel&quot;
+          (click)&#x3D;&quot;_onUpClick()&quot;
+          [ngClass]&#x3D;&quot;_model.upButton.classes&quot;
+  &gt;{{_model.viewLabel}}&amp;nbsp;&lt;span class&#x3D;&quot;up-icon&quot; [ngClass]&#x3D;&quot;upIconClass&quot;&gt;&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/ng-template&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="text-center dl-abdtp-{{_model.viewName}}-view ">  <div class="row align-items-center no-gutters">    <button class="col dl-abdtp-left-button align-items-center"            type="button"            [attr.aria-label]="_model.leftButton.ariaLabel"            [attr.title]="_model.leftButton.ariaLabel"            [ngClass]="_model.leftButton.classes"            (click)="_onLeftClick()">      <span class="left-icon" [ngClass]="leftIconClass"></span>    </button>    <div *ngIf="_model.viewName === (this.maxView || \'year\'); then maxViewLabel else defaultViewLabel;"></div>    <button class="col dl-abdtp-right-button"            type="button"            [attr.aria-label]="_model.rightButton.ariaLabel"            [attr.title]="_model.rightButton.ariaLabel"            (click)="_onRightClick()"            [ngClass]="_model.rightButton.classes">      <span class="right-icon" [ngClass]="rightIconClass"></span>    </button>  </div>  <div (keydown)="_handleKeyDown($event)">    <div *ngIf="_model.rowLabels?.length" class="row no-gutters">      <div *ngFor="let label of _model.rowLabels" class="col align-items-center no-gutters dl-abdtp-col-label">{{label}}</div>    </div>    <div *ngFor="let row of _model.rows" class="row align-items-center no-gutters">      <div *ngFor="let cell of row.cells"           role="gridcell"           class="col dl-abdtp-date-button dl-abdtp-{{_model.viewName}} {{cell.value}}"           [ngClass]="cell.classes"           [attr.aria-label]="cell.ariaLabel"           [attr.aria-disabled]="cell.classes[\'dl-abdtp-disabled\']"           [attr.tabindex]="cell.classes[\'dl-abdtp-active\'] ? 0 : -1"           (click)="_onDateClick(cell)"           (keydown.space)="_onDateClick(cell)"           (keydown.enter)="_onDateClick(cell)"      >{{cell.display}}</div>    </div>  </div></div><ng-template #maxViewLabel>  <div class="col-10 dl-abdtp-view-label">{{_model.viewLabel}}</div></ng-template><ng-template #defaultViewLabel>  <button class="col-10 dl-abdtp-view-label dl-abdtp-up-button"          type="button"          [attr.aria-label]="_model.upButton.ariaLabel"          [attr.title]="_model.upButton.ariaLabel"          (click)="_onUpClick()"          [ngClass]="_model.upButton.classes"  >{{_model.viewLabel}}&nbsp;<span class="up-icon" [ngClass]="upIconClass"></span>  </button></ng-template></div>'
+    var COMPONENTS = [{'name': 'DlDateTimePickerComponent', 'selector': 'dl-date-time-picker'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'DlDateTimePickerComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-325325-19', 'auto');
+                ga('send', 'pageview');
+            </script>
+
+    </body>
+</html>

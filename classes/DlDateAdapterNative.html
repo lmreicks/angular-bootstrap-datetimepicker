@@ -1,0 +1,705 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Angular Bootstrap Date/Time Picker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Angular Bootstrap Date/Time Picker</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">Angular Bootstrap Date/Time Picker</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-fw fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                                <li class="link">
+                                    <a href="../dependencies.html"
+                                        
+                                        >
+                                        <span class="fa fa-fw fa-list"></span>Dependencies
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-fw fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/DlDateTimePickerDateModule.html" >DlDateTimePickerDateModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/DlDateTimePickerMomentModule.html" >DlDateTimePickerMomentModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/DlDateTimePickerNumberModule.html" >DlDateTimePickerNumberModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-fw fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/DlDateTimePickerComponent.html" >DlDateTimePickerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-fw fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapter.html" >DlDateAdapter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapterMoment.html" >DlDateAdapterMoment</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapterNative.html"  data-type="entity-link" class="active" >DlDateAdapterNative</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateAdapterNumber.html" >DlDateAdapterNumber</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDateTimePickerChange.html" >DlDateTimePickerChange</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlDayModelProvider.html" >DlDayModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlHourModelProvider.html" >DlHourModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlMinuteModelProvider.html" >DlMinuteModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlMonthModelProvider.html" >DlMonthModelProvider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DlYearModelProvider.html" >DlYearModelProvider</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-fw fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/DateButton.html" >DateButton</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/DlDateTimePickerModel.html" >DlDateTimePickerModel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/DlModelProvider.html" >DlModelProvider</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="../images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">Angular Bootstrap Date/Time Picker</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-fw fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../dependencies.html"
+                                               
+                                               >
+                                               <span class="fa fa-fw fa-list"></span>Dependencies
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-fw fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/DlDateTimePickerDateModule.html" >DlDateTimePickerDateModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/DlDateTimePickerMomentModule.html" >DlDateTimePickerMomentModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/DlDateTimePickerNumberModule.html" >DlDateTimePickerNumberModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-fw fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/DlDateTimePickerComponent.html" >DlDateTimePickerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-fw fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapter.html" >DlDateAdapter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapterMoment.html" >DlDateAdapterMoment</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapterNative.html"  data-type="entity-link" class="active" >DlDateAdapterNative</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateAdapterNumber.html" >DlDateAdapterNumber</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDateTimePickerChange.html" >DlDateTimePickerChange</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlDayModelProvider.html" >DlDayModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlHourModelProvider.html" >DlHourModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlMinuteModelProvider.html" >DlMinuteModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlMonthModelProvider.html" >DlMonthModelProvider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DlYearModelProvider.html" >DlYearModelProvider</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-fw fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/DateButton.html" >DateButton</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/DlDateTimePickerModel.html" >DlDateTimePickerModel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/DlModelProvider.html" >DlModelProvider</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="../images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content class">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Classes</li>
+  <li>DlDateAdapterNative</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/lib/dl-date-time-picker/dl-date-adapter-native.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Description</h3>
+            </p>
+            <p class="comment">
+                <p>Adapts <code>Date</code> to be usable as a date by date/time components that work with dates.</p>
+
+            </p>
+
+            <p class="comment">
+                <h3>Extends</h3>
+            </p>
+            <p class="comment">
+                    <code><a href="../classes/DlDateAdapter.html" target="_self" >DlDateAdapter</a></code>
+            </p>
+
+
+
+            <section>
+                <h3 id="index">Index</h3>
+                <table class="table table-sm table-bordered index-table">
+                    <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Methods</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#fromMilliseconds">fromMilliseconds</a>
+                                    </li>
+                                    <li>
+                                        <a href="#toMilliseconds">toMilliseconds</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+            <section>
+                
+                    <h3 id="methods">
+                        Methods
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="fromMilliseconds"></a>
+                                    <span class="name">
+                                        <b>
+                                        fromMilliseconds
+                                        </b>
+                                        <a href="#fromMilliseconds"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>fromMilliseconds(milliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-adapter-native.ts:14</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Create a new instance of a <code>moment</code> type from milliseconds.</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                                <td>Type</td>
+                                                            <td>Optional</td>
+                                                                <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                                <td>milliseconds</td>
+                                                                
+                                                                    <td>
+                                                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                                    </td>
+                                                                
+                                                                <td>
+                                                                        no
+                                                                </td>
+                                                                
+            
+                                                                    <td>
+                                                                            <code><p>a time value as milliseconds (local time zone)</p>
+            </code>
+                                                                    </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" >Date</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                <p>an instance of <code>moment</code> for the specified moment in time.</p>
+            
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="toMilliseconds"></a>
+                                    <span class="name">
+                                        <b>
+                                        toMilliseconds
+                                        </b>
+                                        <a href="#toMilliseconds"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>toMilliseconds(value: Date | null)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-adapter-native.ts:26</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Returns a moment in time value as milliseconds (local time zone).</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                                <td>Type</td>
+                                                            <td>Optional</td>
+                                                                <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                                <td>value</td>
+                                                                
+                                                                    <td>
+                                                                                <code>Date | null</code>
+                                                                    </td>
+                                                                
+                                                                <td>
+                                                                        no
+                                                                </td>
+                                                                
+            
+                                                                    <td>
+                                                                            <code><p>a Date or null.</p>
+            </code>
+                                                                    </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>number | null</code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                <p>a <code>value.getTime()</code> result for the specified <code>Date</code> or <code>null</code>.</p>
+            
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+
+
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import {DlDateAdapter} from &#x27;./dl-date-adapter&#x27;;
+
+/**
+ * Adapts &#x60;Date&#x60; to be usable as a date by date/time components that work with dates.
+ **/
+export class DlDateAdapterNative extends DlDateAdapter&lt;Date&gt; {
+  /**
+   * Create a new instance of a &#x60;moment&#x60; type from milliseconds.
+   * @param milliseconds
+   *  a time value as milliseconds (local time zone)
+   * @returns
+   *  an instance of &#x60;moment&#x60; for the specified moment in time.
+   */
+  fromMilliseconds(milliseconds: number): Date {
+    return new Date(milliseconds);
+  }
+
+
+  /**
+   * Returns a moment in time value as milliseconds (local time zone).
+   * @param value
+   *  a Date or null.
+   * @returns
+   *  a &#x60;value.getTime()&#x60; result for the specified &#x60;Date&#x60; or &#x60;null&#x60;.
+   */
+  toMilliseconds(value: Date | null): number | null {
+    return (value) ? value.getTime() : undefined;
+  }
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-325325-19', 'auto');
+                ga('send', 'pageview');
+            </script>
+
+    </body>
+</html>
